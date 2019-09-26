@@ -18,7 +18,7 @@
 
 #include "FP.hpp"
 
-const int L_max=50; // there are some limitation on L_max
+const int L_max=10; // there are some limitation on L_max
 //these limitation are due to GSL's factorial
 //N! is only defined in GSL for N<=170
 //thus  L_max < 85
